@@ -264,7 +264,7 @@ namespace EzEditor
             return GUILayout.Button(texture, GUILayout.Width(20f), GUILayout.Height(15f));            
         }
 
-        public static bool EzButton(Texture2D texture, GUILayoutOption[] options)
+        public static bool EzButton(Texture2D texture, params GUILayoutOption[] options)
         {
             return GUILayout.Button(texture, options);
         }
